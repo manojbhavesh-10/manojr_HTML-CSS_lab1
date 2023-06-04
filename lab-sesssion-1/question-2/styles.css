@@ -1,0 +1,65 @@
+.table {
+    position: relative;
+    top: 20%;
+    background-color: aliceblue;
+    width: 200px;
+    margin: 0 auto;
+}
+
+tr.row th.coloumn{
+    background-color: lightblue;
+    width: 100px;
+    height: 400px;
+    padding: 2px 4px;
+    position: relative;
+    
+}
+
+tr th div.thirty {
+   
+    width: 57px;
+    height: 300px;
+    position: absolute;
+    animation-name: grow-30;
+    animation-duration: 3s;
+    opacity: 1;
+}
+
+tr th div.fourty {
+    
+    width: 57px;
+    height: 300px;
+    position: absolute;
+    animation-name: grow-40;
+    animation-duration: 3s;
+    opacity: 1;
+}
+
+tr th div.eighty {
+    width: 57px;
+    height: 300px;
+    position: absolute;
+    animation-name: grow-80;
+    animation-duration: 3s;
+    opacity: 1;
+}
+
+h2 {
+    position: relative;
+    left: 45%;
+}
+
+@keyframes grow-30 {
+    from{bottom: 0px; height: 0px;}
+    to{bottom: 0px;height: 100px; background-color: dimgray;}
+}
+
+@keyframes grow-40 {
+    from{bottom: 0px;height: 0px;}
+    to{bottom: 0px;height: 170px; background-color: dimgray;}
+}
+
+@keyframes grow-80 {
+    from{bottom: 0px; height: 0px;}
+    to{bottom: 0px; height: 280px; background-color: dimgray;}
+}

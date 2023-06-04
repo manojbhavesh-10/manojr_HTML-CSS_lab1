@@ -1,0 +1,42 @@
+#myvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    left: 40%;
+    top: 25%;   
+    padding: 80px;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    opacity: 1;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.reset {
+    background-color: plum;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.submit {
+    background-color: plum;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+input:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
